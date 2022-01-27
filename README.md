@@ -9,13 +9,13 @@ Desing : https://www.figma.com/file/EA3SmT1o15SMtMY4i5RFvN/Freshly-Delivered-App
 Clone the project
 
 ```bash
-  git clone https://github.com/yagizdo/Todo-Moon
+  git clone https://github.com/yagizdo/Freshly-Delivered-App
 ```
 
 Go to the project directory
 
 ```bash
-  cd Todo-Moon
+  cd Freshly-Delivered-App
 ```
 
 Install dependencies
@@ -33,48 +33,29 @@ Run App
 
 ## What will be add :question:
 
-- [x] Dynamic Todos
-- [x] HomePage UI
-- [X] Add Todo Page
-- [x] Shared Preferences for Add Todo Page
-- [x] State Management (Provider)
-- [ ] Settings Page (80% complete now)
-- [ ] Dark Mode
-- [ ] Splash Screen
+- [x] Splash Screen
+- [ ] Onboarding Screen
+- [ ] Login Screen
+- [ ] Register Screen
+- [ ] Recover Account Error Screen
+- [ ] Recover Account Succes Screen
+- [ ] Dashboard Screen
+- [ ] Wishlist Screen
+- [ ] Cart Screen
+- [ ] Checkout address Screen
+- [ ] Checkout card Screen
+- [ ] Checkout final Screen
+- [ ] Checkout processing Screen
+- [ ] Checkout success Screen
+- [ ] Settings Screen
 
 
 ##  Libraries I use in the application:
-- Provider : https://pub.dev/packages/provider
-- Shared Preferences : https://pub.dev/packages/shared_preferences
-- Slidable : https://pub.dev/packages/flutter_slidable
-- Font Awesome Flutter : https://pub.dev/packages/font_awesome_flutter
 - Hex Color : https://pub.dev/packages/hexcolor
-- Percent Indicator : https://pub.dev/packages/percent_indicator
-- Flutter Toast : https://pub.dev/packages/fluttertoast
-- Flutter Launcher Icons : https://pub.dev/packages/flutter_launcher_icons
-- Modal Bottom Sheet : https://pub.dev/packages/modal_bottom_sheet
+- Animated Splash Screen : https://pub.dev/packages/animated_splash_screen
 
 
-## Screenshots
-
-### Homepage
-<img align="left" width="300" height="600" src="lib/screenshots/homepage1.png">
-<img align="center" width="300" height="600" src="lib/screenshots/homepage2.png">
-<img align="center" width="300" height="600" src="lib/screenshots/description.png">
-
-### Add Todo
-<img align="center" width="300" height="600" src="lib/screenshots/addtodo.png">
-
-
-### Dashboard
-<img align="center" width="300" height="600" src="lib/screenshots/dashboard.png">
-
-
-### Profile
-<img align="center" width="300" height="600" src="lib/screenshots/profile.png">
-
-### Settings
-<img align="center" width="300" height="600" src="lib/screenshots/settings.png">
+## Screenshots (Soon)
 
 ## Contributing
 

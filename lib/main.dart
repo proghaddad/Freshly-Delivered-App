@@ -19,8 +19,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: AnimatedSplashScreen(
-        nextScreen: LoginScreen(),
-        duration: 10000,
+        nextScreen: const LoginScreen(),
+        duration: 5000,
         splash: 'lib/Assets/img/freshlogo.png',
       ),
     );

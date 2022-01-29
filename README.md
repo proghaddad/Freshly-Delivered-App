@@ -35,7 +35,7 @@ Run App
 
 - [x] Splash Screen
 - [ ] Onboarding Screen
-- [ ] Login Screen
+- [x] Login Screen
 - [ ] Register Screen
 - [ ] Recover Account Error Screen
 - [ ] Recover Account Succes Screen
@@ -55,7 +55,8 @@ Run App
 - Animated Splash Screen : https://pub.dev/packages/animated_splash_screen
 
 
-## Screenshots (Soon)
+## Screenshots
+<img align="center" width="300" height="600" src="screenshots/login.png">
 
 ## Contributing
 

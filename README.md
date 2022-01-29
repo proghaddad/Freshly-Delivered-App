@@ -36,7 +36,7 @@ Run App
 - [x] Splash Screen
 - [ ] Onboarding Screen
 - [x] Login Screen
-- [ ] Register Screen
+- [x] Register Screen
 - [x] Recover Account Screen
 - [ ] Recover Account Succes Screen
 - [ ] Dashboard Screen
@@ -57,10 +57,13 @@ Run App
 
 ## Screenshots
 ### Login
-<img align="center" width="350" height="600" src="screenshots/login.png">
+<img align="center" width="400" height="700 src="screenshots/login.png">
 
 ### Recover
-<img align="center" width="350" height="600" src="screenshots/recover.png">
+<img align="center" width="400" height="700" src="screenshots/recover.png">
+
+### Register
+<img align="center" width="400" height="700" src="screenshots/register.png">
 
 ## Contributing
 

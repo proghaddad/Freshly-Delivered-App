@@ -8,10 +8,10 @@ class ResetBTN extends StatelessWidget {
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
     return Padding(
-      padding: const EdgeInsets.only(top : 25.0),
+      padding: const EdgeInsets.only(top : 10.0),
       child: SizedBox(
         width: size.width / 1.1,
-        height: size.height / 13.5,
+        height: size.height / 13,
         child: ElevatedButton(
           onPressed: () {},
           child: const Text('RESET MY ACCOUNT',

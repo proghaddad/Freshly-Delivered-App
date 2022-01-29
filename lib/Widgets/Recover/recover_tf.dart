@@ -12,10 +12,13 @@ class _RecoverTFState extends State<RecoverTF> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.symmetric(horizontal: 15,vertical: 20),
+      padding: const EdgeInsets.symmetric(horizontal: 15),
       child: SizedBox(
+        width: MediaQuery.of(context).size.width / 1.1,
         height: MediaQuery.of(context).size.height / 13,
+        // Textformfield
         child: TextFormField(
+          textAlign: TextAlign.center,
           keyboardType: TextInputType.emailAddress,
           style: TextStyle(color: HexColor('#17682E')),
           maxLines: 1,
@@ -26,9 +29,9 @@ class _RecoverTFState extends State<RecoverTF> {
               borderSide: const BorderSide(
                 color: Colors.red,
               ),
-              borderRadius: BorderRadius.circular(20)
+              borderRadius: BorderRadius.circular(10)
             ),
-            hintStyle: TextStyle(),
+            hintStyle: TextStyle(color: HexColor('#000000').withOpacity(0.5)),
             hintText: 'johndoe@example.com',
             // For Background Color
             filled: true,
@@ -36,7 +39,7 @@ class _RecoverTFState extends State<RecoverTF> {
             // Default Border
             border: OutlineInputBorder(
               borderSide: BorderSide.none,
-              borderRadius: BorderRadius.circular(15),
+              borderRadius: BorderRadius.circular(10),
             ),
           ),
         ),

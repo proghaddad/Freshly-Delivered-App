@@ -6,10 +6,12 @@ class LoginTextField extends StatelessWidget {
       {Key? key,
       required this.controller,
       required this.obsecure,
-      required this.icons})
+      required this.preficon,
+      required this.sufficon})
       : super(key: key);
   TextEditingController controller;
-  IconData icons;
+  IconData preficon;
+  Icon sufficon;
   bool obsecure;
   @override
   Widget build(BuildContext context) {
@@ -27,8 +29,8 @@ class LoginTextField extends StatelessWidget {
             // For Background Color
             filled: true,
             fillColor: Colors.white,
-            prefixIcon: Icon(icons,color: HexColor('#48742C'),),
-            suffixIcon: Icon(Icons.remove_red_eye,color: HexColor('#48742C'),),
+            prefixIcon: Icon(preficon,color: HexColor('#48742C'),),
+            suffixIcon: sufficon,
             border: OutlineInputBorder(
               borderSide: BorderSide.none,
               borderRadius: BorderRadius.circular(15),

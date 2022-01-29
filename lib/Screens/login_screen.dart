@@ -43,12 +43,14 @@ class _LoginScreenState extends State<LoginScreen> {
                 LoginTextField(
                   obsecure: false,
                   controller: nameController,
-                  icons: Icons.email,
-                ),
+                  preficon: Icons.email,
+                  sufficon: Icon(Icons.remove_red_eye,color: HexColor('#fff'),),
+          ),
                 LoginTextField(
                   obsecure: true,
                   controller: passController,
-                  icons: Icons.lock,
+                  preficon: Icons.lock,
+                  sufficon: Icon(Icons.remove_red_eye,color: HexColor('#48742C'),),
                 ),
                 ForgotText(),
                 LoginBTN(),

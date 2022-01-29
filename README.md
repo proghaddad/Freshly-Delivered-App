@@ -37,7 +37,7 @@ Run App
 - [ ] Onboarding Screen
 - [x] Login Screen
 - [ ] Register Screen
-- [ ] Recover Account Error Screen
+- [x] Recover Account Screen
 - [ ] Recover Account Succes Screen
 - [ ] Dashboard Screen
 - [ ] Wishlist Screen
@@ -56,7 +56,11 @@ Run App
 
 
 ## Screenshots
-<img align="center" width="300" height="600" src="screenshots/login.png">
+### Login
+<img align="center" width="350" height="600" src="screenshots/login.png">
+
+### Recover
+<img align="center" width="350" height="600" src="screenshots/recover.png">
 
 ## Contributing
 

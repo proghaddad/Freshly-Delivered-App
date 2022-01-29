@@ -18,6 +18,7 @@ class LoginTextField extends StatelessWidget {
       child: SizedBox(
         height: MediaQuery.of(context).size.height / 13,
         child: TextFormField(
+          style: TextStyle(color: HexColor('#17682E')),
           maxLines: 1,
           controller: controller,
           obscureText: obsecure,
@@ -27,6 +28,7 @@ class LoginTextField extends StatelessWidget {
             filled: true,
             fillColor: Colors.white,
             prefixIcon: Icon(icons,color: HexColor('#48742C'),),
+            suffixIcon: Icon(Icons.remove_red_eye,color: HexColor('#48742C'),),
             border: OutlineInputBorder(
               borderSide: BorderSide.none,
               borderRadius: BorderRadius.circular(15),

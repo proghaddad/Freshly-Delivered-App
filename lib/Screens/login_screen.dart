@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:freshly_delivered_app/Widgets/Login/account_txt.dart';
+import 'package:freshly_delivered_app/Widgets/Login/forgot_txt.dart';
+import 'package:freshly_delivered_app/Widgets/Login/login_btn.dart';
 import 'package:freshly_delivered_app/Widgets/Login/login_tf.dart';
 import 'package:hexcolor/hexcolor.dart';
 
@@ -47,6 +50,9 @@ class _LoginScreenState extends State<LoginScreen> {
                   controller: passController,
                   icons: Icons.lock,
                 ),
+                ForgotText(),
+                LoginBTN(),
+                AccountTXT(),
               ],
             ),
           ),

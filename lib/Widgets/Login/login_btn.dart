@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:freshly_delivered_app/Screens/dashboard.dart';
 import 'package:hexcolor/hexcolor.dart';
 
 class LoginBTN extends StatelessWidget {
@@ -13,7 +14,9 @@ class LoginBTN extends StatelessWidget {
         width: size.width / 1.1,
         height: size.height / 13.5,
         child: ElevatedButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(context, MaterialPageRoute(builder: (context) => const DashboardPage()));
+            },
             child: const Text('LOGIN',
               style: TextStyle(),
               ),

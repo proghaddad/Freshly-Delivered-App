@@ -19,7 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
       bottomNavigationBar: Padding(
         padding: const EdgeInsets.symmetric(vertical: 15,horizontal: 10),
         child: ClipRRect(
-          borderRadius: BorderRadius.circular(40),
+          borderRadius: BorderRadius.circular(15),
           child: BottomNavigationBar(
             onTap: (int index) => setState(() {
               _currentIndex = index;
@@ -30,8 +30,8 @@ class _HomeScreenState extends State<HomeScreen> {
             elevation: 0,
             items: const [
               BottomNavigationBarItem(icon: Icon(Icons.home,color: Colors.white,),label: 'Home'),
-              BottomNavigationBarItem(icon: Icon(Icons.shopping_cart_outlined,color: Colors.white),label: 'Wishlist'),
-              BottomNavigationBarItem(icon: Icon(Icons.shopping_bag,color: Colors.white),label: 'Cart'),
+              BottomNavigationBarItem(icon: Icon(Icons.shopping_bag,color: Colors.white),label: 'Wishlist'),
+              BottomNavigationBarItem(icon: Icon(Icons.shopping_cart_outlined,color: Colors.white),label: 'Cart'),
               BottomNavigationBarItem(icon: Icon(Icons.settings,color: Colors.white),label: 'Settings'),
             ],
             selectedItemColor: Colors.white,

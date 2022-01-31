@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:freshly_delivered_app/Widgets/Dashboard/menu_list.dart';
+import 'package:freshly_delivered_app/Widgets/Dashboard/sales_card.dart';
 import 'package:freshly_delivered_app/Widgets/Dashboard/searchbar.dart';
 import 'package:freshly_delivered_app/Widgets/Dashboard/carousel_slider.dart';
 import 'package:hexcolor/hexcolor.dart';
@@ -16,11 +18,14 @@ class _DashboardPageState extends State<DashboardPage> {
     return Scaffold(
       backgroundColor: Colors.white,
       body: Padding(
-        padding: const EdgeInsets.only(top : 50.0),
+        padding: const EdgeInsets.only(top : 15),
         child: Column(
           children: [
-            SearchBar(),
+            const SearchBar(),
             Sliderimages(),
+            MenuList(),
+            const SalesCard(),
+            MenuList(),
           ],
         ),
       ),

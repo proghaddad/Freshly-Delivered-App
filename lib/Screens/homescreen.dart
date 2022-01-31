@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:freshly_delivered_app/Screens/dashboard.dart';
+import 'package:freshly_delivered_app/Screens/wishlist.dart';
 import 'package:hexcolor/hexcolor.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -11,7 +12,7 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
    int _currentIndex = 0;
-  final List _screens=[const DashboardPage()];
+  final List _screens=[const DashboardPage(),const WishList()];
   @override
   Widget build(BuildContext context) {
     return Scaffold(

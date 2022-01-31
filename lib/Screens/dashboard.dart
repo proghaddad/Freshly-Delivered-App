@@ -12,12 +12,12 @@ class _DashboardPageState extends State<DashboardPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: HexColor('#25C573'),
+      backgroundColor: Colors.white,
       body: Padding(
         padding: const EdgeInsets.only(top : 50.0),
         child: Column(
           children: [
-            Padding(padding: EdgeInsets.symmetric(horizontal: 15),
+            Padding(padding: const EdgeInsets.symmetric(horizontal: 15),
               child: Container(
                 decoration: BoxDecoration(
                     color: HexColor('#17682E').withOpacity(0.5),
@@ -30,7 +30,7 @@ class _DashboardPageState extends State<DashboardPage> {
                     hintText: 'Search recipes, groceries and more',
                     hintStyle: TextStyle(fontSize: 15,color: Colors.white.withOpacity(0.8)),
                     prefixIcon: Icon(Icons.search,color: Colors.white.withOpacity(0.8),),
-                    prefixIconConstraints: BoxConstraints(
+                    prefixIconConstraints: const BoxConstraints(
                       minWidth: 70
                     ),
                     border: OutlineInputBorder(

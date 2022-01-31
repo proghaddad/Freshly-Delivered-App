@@ -18,9 +18,9 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       backgroundColor: Colors.white,
       bottomNavigationBar: Padding(
-        padding: const EdgeInsets.symmetric(vertical: 15,horizontal: 10),
+        padding: const EdgeInsets.symmetric(vertical: 15,horizontal: 25),
         child: ClipRRect(
-          borderRadius: BorderRadius.circular(15),
+          borderRadius: BorderRadius.circular(20),
           child: BottomNavigationBar(
             onTap: (int index) => setState(() {
               _currentIndex = index;

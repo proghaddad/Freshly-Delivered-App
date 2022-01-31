@@ -37,8 +37,8 @@ Run App
 - [ ] Onboarding Screen
 - [x] Login Screen
 - [x] Register Screen
+- [ ] Register Screen Successful
 - [x] Recover Account Screen
-- [ ] Recover Account Succes Screen
 - [ ] Dashboard Screen
 - [ ] Wishlist Screen
 - [ ] Cart Screen

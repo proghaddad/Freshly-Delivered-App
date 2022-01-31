@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:freshly_delivered_app/Screens/register_succesfull.dart';
 import 'package:hexcolor/hexcolor.dart';
 
 class RegisterBTN extends StatelessWidget {
@@ -13,7 +14,9 @@ class RegisterBTN extends StatelessWidget {
         width: size.width / 1.1,
         height: size.height / 13.5,
         child: ElevatedButton(
-          onPressed: () {},
+          onPressed: () {
+            Navigator.push(context, MaterialPageRoute(builder: (context) => RegisterSuccesful()));
+          },
           child: const Text('REGISTER',
             style: TextStyle(),
           ),

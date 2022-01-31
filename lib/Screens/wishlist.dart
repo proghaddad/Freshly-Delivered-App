@@ -31,8 +31,8 @@ class _WishListState extends State<WishList> {
                 child: Text('WISHLIST EMPTY',style: TextStyle(color: HexColor('#17682E'),fontSize: 20,fontWeight: FontWeight.w900,)),
               ),
               const Padding(
-                padding: EdgeInsets.only( top : 5.0),
-                child: Text('You have not added any items to your wishlists.'),
+                padding: EdgeInsets.only(top : 5.0,right: 100,left: 100),
+                child: Text('You have not added any items to your wishlists.',textAlign: TextAlign.center,),
               ),
             ],
           ),
